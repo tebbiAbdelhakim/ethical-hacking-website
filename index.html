@@ -12,12 +12,12 @@
         <ul class="nav-links">
             <li class="intro"><a href="#intro">Introduction</a></li>
             <li class="phases"><a href="#phases">Phases</a></li>
-            <li class="tech"><a href="#">Techniques</a></li>
-            <li class="conclusion"><a href="#">Conclusion</a></li>
+            <li class="tech"><a href="#techniques">Techniques</a></li>
+            <li class="conclusion-link"><a href="#conclusion">Conclusion</a></li>
         </ul>
         <ul class="nav-buttons">
-            <li class="examples"><a href="#">Examples</a></li>
-            <li class="tools"><a href="#">Tools</a></li>
+            <li class="examples"><a href="#example">Example</a></li>
+            <li class="tools"><a href="#tools">Tools</a></li>
         </ul>
     </nav>
     <section class="hero" id="intro">
@@ -158,6 +158,150 @@
             </div>
             
         </div>
+    </section>
+    <section class="tools" id="tools">
+        <h1><span>T</span>ools</h1>
+        <p>This section explores the <span>tools</span> used in each phase of ethical hacking.</p>
+        <div class="tools-container">
+
+            <div class="card recon">
+                <img src="/images/recon-ng-.svg" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Reconnaissance</h2>
+                        <h2>whois,osint</h2>
+                    </div>
+                    <h1 class="title">Recon-ng</h1>
+                    <p class="desc"> Recon-ng is an open-source reconnaissance framework designed for information gathering and web reconnaissance during the initial phases of penetration testing or ethical hacking.</p>
+                </div>
+            </div>
+            <div class="card maltego">
+                <img src="/images/maltego.png" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Reconnaissance</h2>
+                        <h2>whois,osint</h2>
+                    </div>
+                    <h1 class="title">Maltego</h1>
+                    <p class="desc"> Maltego is a versatile and graphical open-source intelligence (OSINT) tool used for data mining and link analysis. It allows users to visually explore and analyze relationships and connections between various entities, such as people, organizations, and domains.</p>
+                </div>
+            </div>
+            <div class="card nmap">
+                <img src="/images/nmap.png" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Scanning</h2>
+                        <h2>Port Scanning,Network Mapping,Vuln Scanning,Banner Grabbing</h2>
+                    </div>
+                    <h1 class="title">Nmap</h1>
+                    <p class="desc">powerful and open-source network scanning tool used for discovering and mapping devices and services on a computer network</p>
+                </div>
+            </div>
+            <div class="card nikto">
+                <img src="/images/nikto-logo.svg" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Scanning</h2>
+                        <h2>Vuln Scanning</h2>
+                    </div>
+                    <h1 class="title">Nikto</h1>
+                    <p class="desc">
+                        Nikto is an open-source web server scanner designed for detecting potential security vulnerabilities on web servers.</p>
+                </div>
+            </div>
+            <div class="card metasploit">
+                <img src="/images/msf.svg" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Scanning,Gaining,Maintaining Access</h2>
+                        <h2>Exploiting,Backdoors</h2>
+                    </div>
+                    <h1 class="title">Metasploit</h1>
+                    <p class="desc">
+                        Metasploit is an open-source penetration testing framework that provides tools for developing, testing, and executing exploit code against a remote target.</p>
+                </div>
+            </div>
+            <div class="card sqlmap">
+                <img src="/images/sqlmap.png" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Gaining Access</h2>
+                        <h2>Exploiting Software Vulnes</h2>
+                    </div>
+                    <h1 class="title">Sqlmap</h1>
+                    <p class="desc">
+                        SQLMap is an open-source penetration testing tool that automates the detection and exploitation of SQL injection vulnerabilities in web applications. </p>
+                </div>
+            </div>
+            <div class="card burp">
+                <img src="/images/burp.png" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Gaining Access</h2>
+                        <h2>Exploiting Software Vulns</h2>
+                    </div>
+                    <h1 class="title">Sqlmap</h1>
+                    <p class="desc">
+                        Burp Suite's proxy mode allows users to intercept and analyze HTTP requests and responses between the web browser and the target application.  </p>
+                </div>
+            </div>
+            <div class="card cupp">
+                <img src="/images/kali.svg" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Gaining Access</h2>
+                        <h2>Dictionary attacks,Software Engineering</h2>
+                    </div>
+                    <h1 class="title">Cupp</h1>
+                    <p class="desc">
+                        Cupp, short for "Common User Passwords Profiler," is a simple and open-source tool used for creating custom password attack wordlists based on personal information.  </p>
+                </div>
+            </div>
+            <div class="card crunch">
+                <img src="/images/crunch.svg" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Gaining Access</h2>
+                        <h2>Brute Forcing</h2>
+                    </div>
+                    <h1 class="title">Crunch</h1>
+                    <p class="desc">
+                        It allows users to create highly customizable brute-force or targeted password lists by specifying various parameters such as character sets, minimum and maximum length, and specific patterns.  </p>
+                </div>
+            </div>
+            <div class="card weevely">
+                <img src="/images/weevely-logo.svg" alt="">
+                <div class="texts">
+                    <div class="header">
+                        <h2>Maintaining Access</h2>
+                        <h2>Backdoors</h2>
+                    </div>
+                    <h1 class="title">Weevely</h1>
+                    <p class="desc">
+                        Weevely allows security professionals, ethical hackers, or attackers to establish a covert backdoor on a web server by injecting a small piece of code. Once the backdoor is in place, it enables the execution of various commands and tasks on the compromised server remotely.  </p>
+                </div>
+            </div>
+            
+
+            
+        </div>
+    </section>
+    <section id="example" class="example">
+        <h1><span>E</span>xample</h1>
+        <p>In this example we tried to get the vulnerabilities in our target machine 10.0.2.4,so we started by scanning the network to get the active hosts, then we made a port scan in order to find the opened ports, next we did banner grabbing to get the versions of the services attached to the opened ports, then using the vulners script in nmap we were able to get vulnerabilities and the links of the exploiting methods.</p>
+        <div class="images">
+            <img src="images/nmap1.png" alt="">
+            <img src="images/nmap2.png" alt="">
+            <img src="images/nmap3.png" alt="">
+            <img src="images/nmap4.png" alt="">
+        </div>
+    </section>
+
+    <section id="conclusion" class="conclusion">
+        <h1>Conclusion</h1>
+        <p>In conclusion, ethical hacking stands as a pivotal force in fortifying our digital landscape against the ever-evolving threats of the cyber world. By harnessing the skills of ethical hackers, we empower ourselves to identify and rectify vulnerabilities before malicious actors can exploit them. As we navigate the intricate web of technology, ethical hacking emerges not just as a proactive defense mechanism but as a testament to our commitment to a secure and resilient digital future. It is a symbiotic relationship between innovation and security, where ethical hackers play a crucial role in safeguarding our interconnected world. By embracing ethical hacking practices, we pave the way for a safer, more robust cyberspace, fostering trust, innovation, and progress. Together, let us continue to explore the frontiers of ethical hacking, ensuring that our digital ecosystem remains a space where security and progress go hand in hand.
+            and this is a short video of how to master ethical hacking in 2023: <a href="https://www.youtube.com/watch?v=tIp3A5gaw5o">click here</a></p>
+        
     </section>
 </body>
 </html>
